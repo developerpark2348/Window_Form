@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="kr">
 <head>
-    <title>Document</title>
+    <title>Park's board</title>
     <link rel="stylesheet" href="index.css" />
 </head>
 <body>
     <div class="js-clock">
-        <h1>00:00</h1>
+        <h1 class="js-time">00:00</h1>
     </div>
+    <form class="js-form form">
+        <input  class="js-input" type="text" placeholder="당신의 이름을 입력하세요">
+    </form>
+    <h4 class="js-greetings greetings"></h4>
+    <form class="js-toDoForm">
+        <input class="js-toDoInput" type="text" placeholder="할 일을 정하세요" />
+    </form>
+    <ul class="js-toDoList">  
+    </ul>
     <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
 </body>
 </html>
